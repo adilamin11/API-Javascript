@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #b1b1b1;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #41403f;
+    color: white;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #4f4a4a;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .container {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #6a796e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  .celebrity-list {
+    margin-top: 20px;
+  }
+  
+  .celebrity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .celebrity img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .celebrity h3 {
+    text-align: left;
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .celebrity p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .celebrity:last-child {
+    border-bottom: 10px;
+    margin-bottom: 20px;
+  }
